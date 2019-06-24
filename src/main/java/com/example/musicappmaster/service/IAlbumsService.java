@@ -6,4 +6,5 @@ import com.example.musicappmaster.entity.Album;
 
 public interface IAlbumsService {
 	List<Album> buscarTodos();
+	void guardar(Album album);
 }
